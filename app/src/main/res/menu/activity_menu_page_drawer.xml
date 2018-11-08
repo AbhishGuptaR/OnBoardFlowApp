@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personalexpense"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Personal Expense"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_sendfeedback"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Send Feedback" />
+        <item
+            android:id="@+id/nav_ratetheapp"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Rate the App" />
+        <item
+            android:id="@+id/nav_sharewithfriends"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Share with Friends" />
+        <item
+            android:id="@+id/nav_abouttheapp"
+            android:icon="@drawable/cirlcleshape"
+            android:title="About the App" />
+        <item
+            android:id="@+id/nav_privacypolicy"
+            android:icon="@drawable/cirlcleshape"
+            android:title="Privacy Policy" />
+
+
+    </group>
+
+
+</menu>
